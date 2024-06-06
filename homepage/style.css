@@ -1,0 +1,373 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.img-logo{
+    width: 200%;
+}
+
+.li-navbar-gambar{
+    width: 2%;
+    list-style-type: none;
+}
+
+.container-navbar{
+    position:sticky;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-navbar.scrolled {
+    top: -60px; /* Ubah nilai ini sesuai dengan tinggi navbar Anda */
+}
+
+.ul-navbar{
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    display: flex;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.a-navbar-kanan{
+    text-decoration: none;
+    color: black;
+}
+
+.a-navbar-kanan:hover{
+    text-decoration: underline;
+}
+
+.a-navbar{
+    color: black;
+    text-decoration: none;
+}
+
+.a-navbar:hover{
+    text-decoration: underline;
+}
+
+.li-navbar{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Tampilkan dropdown saat mengarahkan kursor mouse ke menu dropdown */
+}
+
+.li-navbar-masuk{
+    border: 2px solid black;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.a-perusahaan{
+    text-decoration: none;
+    color: blue;
+}
+
+.li-navbar-masuk:hover{
+    background-color: #cffbf3;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 15px;
+}
+
+.ul-kanan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    height: 100px;
+}
+
+.h1-content{
+    color:#000000;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:60px;
+    font-family:Space Grotesk;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width:531px;
+    position:absolute;
+    margin-top:120px ;
+    margin-left: 180px;
+}
+
+.p-content{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 180px;
+    color:#000000;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:24px;
+    font-family:Inter;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width:498px;
+}
+
+.li-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    list-style: none;
+    height: 14px;
+    width: 180px;
+    padding: 14px;
+    margin: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 430px;
+    margin-left: 240px;  
+}
+
+.a-content {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.li-content:hover{
+    background-color: #cffbf3;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.div-logo{
+    width: 100%;
+    height: 10vh;
+    background-color:white ;
+}
+
+.img-logo-bawah{
+    width: 200px;
+}
+
+.ul-logo{
+    display: flex;
+    height: 100px;
+    position: absolute;
+    margin-top:550px ;
+    margin-left: 70px;
+}
+
+.li-logo{
+    list-style: none;
+    padding: 14px;
+    margin: 5px;
+    font-size: 17px;
+}
+
+.div-lakara{
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(255, 255, 255) ;
+}
+
+.h1-lakara{
+    color:#18191c;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:40px;
+    font-family:Inter;
+    line-height:48px;
+    border-style:hidden;
+    outline:none;
+    width:504px;
+    position:absolute;
+    margin-top: 650px;
+    margin-left: 500px;
+}
+
+.img-lakara{
+    position: absolute;
+    margin-top: 800px;
+    width: 100%;
+}
+
+.img-content{
+    width: 600px;
+    position: absolute;
+    margin-left: 750px;
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Atur warna latar belakang sesuai kebutuhan */
+    z-index: 100; /* Pastikan z-index cukup tinggi agar navbar tumpang tindih dengan konten lainnya */
+    /* Atur properti lainnya sesuai kebutuhan Anda */
+    /* Misalnya: */
+    width: 97%;
+    height: 60px; /* Atur tinggi navbar sesuai keinginan Anda */
+    padding: 0 20px; /* Atur padding kiri-kanan navbar sesuai keinginan Anda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Atur bayangan navbar jika diperlukan */
+}
+
+.post-cv{
+    position: relative;
+    top: 800px;
+    width: 100%;
+    height: 80vh;
+    background-color:#F3F2F0 ;
+}
+
+.h1-banner{
+    color:#831c1c;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:50px;
+    font-family:Ubuntu;
+    line-height:50px;
+    border-style:hidden;
+    outline:none;
+    width:565px;
+    position: relative;
+    top: 70px;
+    left: 80px;
+}
+
+.li-postcv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F67A5;
+    position: absolute;
+    list-style: none;
+    height: 15px;
+    width: 110px;
+    padding: 14px;
+    margin: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 1100px;  
+}
+
+.a-postcv{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.container-footer{
+    position: absolute;
+    top: 1700px;
+    display: grid;
+    height: 30vh;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.img-footer{
+    width: 20%;
+}
+
+.grid1-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2-footer{
+    position: relative;
+    top: 50px;
+}
+
+.grid3-footer{
+    position: relative;
+    top: 50px;
+}
+
+.grid4-footer{
+    position: relative;
+    top: 50px;
+}
+
+.container-navbar ul li a,
+.container-navbar ul li a:after,
+.container-navbar ul li a:before {
+    transition: all .5s;
+}
+.container-navbar ul li a:hover {
+    color:#E34F25;
+}
+
+/* stroke */
+.container-navbar.stroke ul li a
+{
+    position: relative;
+}
+.container-navbar.stroke ul li a:after,
+.container-navbar ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #E34F25;
+    height: 1px;
+}
+.container-navbar.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+.container-navbar ul li a {
+    transition: all 1s;
+}
+
+.container-navbar ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+.container-navbar ul li a:hover {
+    color: #E34F25;
+    z-index: 1;
+}
+.container-navbar ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    opacity: 1;
+}
